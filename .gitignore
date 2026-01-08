@@ -53,3 +53,12 @@ coverage/
 *.pem
 .cache/
 
+# npm cache and temporary files
+.npm/
+**/.npm/
+_npx/
+**/_npx/
+.npmrc
+.viminfo
+*.txt
+
