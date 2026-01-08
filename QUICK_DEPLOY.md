@@ -11,7 +11,7 @@
    - **Name**: `your-app-backend`
    - **Root Directory**: `backend`
    - **Environment**: `Node`
-   - **Build Command**: `npm install && npm run build`
+   - **Build Command**: `npm ci && npm run build` (or `npm install && npm run build`)
    - **Start Command**: `npm start`
    - **Plan**: Free
 5. Add Environment Variables:

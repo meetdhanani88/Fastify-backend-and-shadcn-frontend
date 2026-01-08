@@ -64,7 +64,7 @@ This guide covers deploying both your frontend and backend for free using variou
    - Settings:
      - **Name**: `your-app-backend`
      - **Environment**: `Node`
-     - **Build Command**: `npm install && npm run build`
+     - **Build Command**: `npm ci && npm run build` (or `npm install && npm run build`)
      - **Start Command**: `npm start`
      - **Plan**: Free
    - Add Environment Variables:
