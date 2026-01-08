@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Fastify backend with TypeScript and Zod validation",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "type-check": "tsc --noEmit",
+    "test:api": "node test-api.js",
+    "test:api:curl": "bash test-api.sh"
+  },
+  "keywords": ["fastify", "typescript", "zod", "crud"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.26.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "pino-pretty": "^11.2.2",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  }
+}
+
